@@ -4,7 +4,7 @@ const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 require("dotenv").config();
 
-let portNo = process.env.PORT || 8000;
+let portNo = process.env.PORT || 4000;
 
 server.use(middlewares);
 server.use(router);
